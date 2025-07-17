@@ -73,11 +73,11 @@ $(document).ready(function () {
       url: "funciones/modificar_producto.php",
       method: "POST",
       data: {
-        id: id,
-        nombre: nombre,
-        tipo: tipo,
-        proveedor: proveedor,
-        marca: marca
+        id: Id,
+        nombre: Nombre,
+        tipo: Tipo,
+        proveedor: Proveedor,
+        marca: Marca
       },
       success: function (data) {
         try {
